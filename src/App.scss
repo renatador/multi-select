@@ -1,0 +1,73 @@
+.App {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  align-items: center;
+  justify-content: center;
+
+  .width--100{
+    width: 100%;
+  }
+
+  .flex {
+    display: flex;
+  }
+
+  .flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .flex-item-wide {
+    flex:1;
+  }
+
+  .flex-item {
+    flex:0;
+  }
+
+  .padding--5 {
+    padding: 5px;
+  }
+
+  .ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .close-white {
+    width: 12px;
+    height: 12px;
+    padding: 2px;
+  }
+  .clear-primary {
+    width: 8px;
+    height: 8px;
+    margin: 6px 0 6px 4px;
+    padding: 1px;
+  }
+
+  .rotate-180 {
+    transform: rotate(180deg);
+  }
+
+  .Modal {
+    width: 24rem;
+    padding: 1em;
+    border: 1px solid #555;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.25);
+  }
+
+  form {
+    .FormGroup {
+      label {
+        display: block;
+        margin-bottom: 0.5rem;
+      }
+    }
+  }
+}
